@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
         double tempAndAge = ageAndTemperature(20, 48);
         System.out.println(tempAndAge);
+        
         int ageOfPeople = 35;
         int temperature = 20;
         if ((ageOfPeople >= 20 && ageOfPeople <= 45) && (temperature >= -20 && temperature <= 30)) {
